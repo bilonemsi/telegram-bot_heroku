@@ -3,8 +3,8 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
 import sys
 
-TOKEN = os.getenv("5061081646:AAGf72OzCSbRxopRpKZYtDpjT3kreI0WoZE")
-
+TOKEN = os.getenv("TOKEN")
+#5061081646:AAGf72OzCSbRxopRpKZYtDpjT3kreI0WoZE
 mode = os.getenv("MODE")
 
 # Mod'a uyarlı, updater başlatma fonksiyonu belirler
